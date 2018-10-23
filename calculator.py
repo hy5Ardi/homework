@@ -11,15 +11,15 @@ second = int(second)
 
 if type == "+":
 	summation = first + second
-	print(f"Answer: {summation}")
+	print(f"Calculation: {first} + {second} = {summation}")
 elif type == "-":
 	subtraction = first - second
-	print(f"Answer: {subtraction}")
+	print(f"Calculation: {first} + {second} = {subtraction}")
 elif type == "*":
 	multiplication = first * second
-	print(f"Answer: {multiplication}")
+	print(f"Calculation: {first} + {second} = {multiplication}")
 elif type == "/":
 	split = first / second
-	print(f"Answer: {split}")
+	print(f"Calculation: {first} + {second} = {split}")
 else:
 	print("Error: Invalid operation type. Please use (+; -; *; /;).")
