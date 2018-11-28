@@ -12,5 +12,13 @@ def getMinimum(array):
 			minimum = num
 	return minimum
 
-minimum = getMinimum(numbers)
-print(minimum)
+def getIndex(array, i):
+	index = 0
+	for e in array:
+		if e == i:
+			return index
+		else:
+			index += 1
+
+index = getIndex(numbers, 75)
+print(index)
