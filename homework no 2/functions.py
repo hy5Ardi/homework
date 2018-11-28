@@ -20,5 +20,6 @@ def getIndex(array, i):
 		else:
 			index += 1
 
-index = getIndex(numbers, 75)
-print(index)
+def getAverage(array):
+	average = sum(array) / len(array)
+	return average
