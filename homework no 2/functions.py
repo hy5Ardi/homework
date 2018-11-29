@@ -1,10 +1,3 @@
-numbers = [
-	2,
-	75,
-	3,
-	15
-]
-
 def getMinimum(array):
 	minimum = None
 	for num in array:
